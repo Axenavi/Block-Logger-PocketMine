@@ -1,0 +1,25 @@
+---
+name: Logger
+author: Axen
+main: Axen\Logger\log
+version: 0.0.1
+api:
+- 3.19.1
+commands:
+  wts player:
+    permissions: yolo.command.log
+    description: Query players' record
+    usage: /log player <player's name>
+  wts reset:
+    permissions: yolo.command.log
+    description: Reset and delet the database
+    usage: /log reset
+  wts pos1:
+    permissions: yolo.command.log
+    description: Set the first position
+    usage: /log pos1
+  wts pos2:
+    permissions: yolo.command.log
+    description: Set the second position and query
+    usage: /log pos2
+...
